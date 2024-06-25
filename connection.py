@@ -6,7 +6,7 @@ def create_connection():
             host='localhost',
             user='root',
             password='',
-            database='test',
+            database='stat_mhs',
             cursorclass=pymysql.cursors.DictCursor
         )
         return connection

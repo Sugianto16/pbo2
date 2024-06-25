@@ -1,22 +1,22 @@
 from abc import ABC, abstractmethod
 
-class DashbordInterface(ABC):
+class DashboardInterface(ABC):
     @abstractmethod
     def all():
         pass
 
     @abstractmethod
-    def store(dashbord_obj):
+    def store(dashboard_obj):
         pass
 
     @abstractmethod
-    def find(dashbord_id):
+    def find(dashboard_id):
         pass
 
     @abstractmethod
-    def update(dashbord_id, dashbord_obj):
+    def update(dashboard_id, dashbord_obj):
         pass
 
     @abstractmethod
-    def delete(dashbord_id):
+    def delete(dashboard_id):
         pass
